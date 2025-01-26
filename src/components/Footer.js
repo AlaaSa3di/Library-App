@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Footer = () => {
-  return (
-    <footer>
-      <p>&copy; 2025 مكتبة الكتب | جميع الحقوق محفوظة</p>
-    </footer>
-  );
-};
+class Footer extends Component {
+  render() {
+    return (
+      <footer>
+        <p>&copy; 2025 Library Management App</p>
+      </footer>
+    );
+  }
+}
 
 export default Footer;

@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Header = () => {
-  return (
-    <header>
-      <h1>📚 مكتبة الكتب</h1>
-      <p>اكتشف المعرفة بين دفتي الكتاب</p>
-    </header>
-  );
-};
+class Header extends Component {
+  render() {
+    return (
+      <header>
+        <h1>مكتبة المعرفة</h1>
+      </header>
+    );
+  }
+}
 
 export default Header;
