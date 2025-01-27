@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import BookCard from './BookCard';
-
+import BookCard from './bookCard';
 class Main extends Component {
   state = {
     books: [
